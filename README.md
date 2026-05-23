@@ -87,10 +87,15 @@ This C++ program is a simple Library Management System that manages books in a l
 The program allows the user to perform different library operations such as:
 
 1)Add new books
+
 2)Display all books
+
 3)Search books by ID
+
 4)Issue books to students
+
 5)Return books
+
 6)Delete books
 
 All book records are stored in a text file named library.txt, so the data remains saved even after the program is closed.
