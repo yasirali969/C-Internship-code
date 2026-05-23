@@ -81,7 +81,7 @@ The program demonstrates the use of arrays and functions for efficient data mana
 
 
 
-# Library Management System – Short Explanation
+# Library Management System 
 
 This C++ program is a simple Library Management System that manages books in a library using arrays and file handling.
 The program allows the user to perform different library operations such as:
