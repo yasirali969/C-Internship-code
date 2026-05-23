@@ -100,7 +100,8 @@ The program allows the user to perform different library operations such as:
 
 All book records are stored in a text file named library.txt, so the data remains saved even after the program is closed.
 
-Main Functionalities
+**Main Functionalities**
+
 **1. SaveBooks()**
 
 Saves all book records into library.txt.
@@ -126,23 +127,32 @@ Searches a book using its ID.
 Displays the book details if found.
 
 **6. IssueBook()**
+
 Issues a book to a student.
 Reduces the quantity of the book by 1.
+
 **7. ReturnBook()**
+
 Returns a book to the library.
 Increases the quantity by 1.
+
 **8. DeleteBook()**
+
 Deletes a book record from the system.
 Shifts remaining records in arrays.
+
 **Program Flow**
+
 The program starts by loading saved data from the file.
 A menu is displayed with different options.
 The user selects an option, and the corresponding function executes.
 Updated data is saved back to the file after changes.
 The program continues until the user selects Exit.
+
 **Summary**
 
 This project is a menu-driven library management system developed in C++ using:
+
 Functions
 Arrays
 Loops
