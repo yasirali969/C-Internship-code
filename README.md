@@ -80,3 +80,61 @@ The program demonstrates the use of arrays and functions for efficient data mana
 
 
 
+
+# Library Management System – Short Explanation
+
+This C++ program is a simple Library Management System that manages books in a library using arrays and file handling.
+The program allows the user to perform different library operations such as:
+
+1)Add new books
+2)Display all books
+3)Search books by ID
+4)Issue books to students
+5)Return books
+6)Delete books
+
+All book records are stored in a text file named library.txt, so the data remains saved even after the program is closed.
+
+Main Functionalities
+**1. SaveBooks()**
+Saves all book records into library.txt.
+Stores book ID, book name, author name, and quantity in table format.
+**2. LoadBooks()**
+Loads saved book data from the file when the program starts.
+Restores all records into arrays.
+**3. Addbook()**
+Takes book details from the user.
+Adds the new book into the system.
+**4. DisplayBook()**
+Displays all books in a formatted table.
+**5. SearchBook()**
+Searches a book using its ID.
+Displays the book details if found.
+**6. IssueBook()**
+Issues a book to a student.
+Reduces the quantity of the book by 1.
+**7. ReturnBook()**
+Returns a book to the library.
+Increases the quantity by 1.
+**8. DeleteBook()**
+Deletes a book record from the system.
+Shifts remaining records in arrays.
+**Program Flow**
+The program starts by loading saved data from the file.
+A menu is displayed with different options.
+The user selects an option, and the corresponding function executes.
+Updated data is saved back to the file after changes.
+The program continues until the user selects Exit.
+**Summary**
+
+This project is a menu-driven library management system developed in C++ using:
+Functions
+Arrays
+Loops
+Conditional statements
+File handling
+
+It helps manage library records efficiently and keeps data permanently stored in a text file.
+
+
+
