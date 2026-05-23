@@ -102,19 +102,29 @@ All book records are stored in a text file named library.txt, so the data remain
 
 Main Functionalities
 **1. SaveBooks()**
+
 Saves all book records into library.txt.
 Stores book ID, book name, author name, and quantity in table format.
+
 **2. LoadBooks()**
+
 Loads saved book data from the file when the program starts.
 Restores all records into arrays.
+
 **3. Addbook()**
+
 Takes book details from the user.
 Adds the new book into the system.
+
 **4. DisplayBook()**
+
 Displays all books in a formatted table.
+
 **5. SearchBook()**
+
 Searches a book using its ID.
 Displays the book details if found.
+
 **6. IssueBook()**
 Issues a book to a student.
 Reduces the quantity of the book by 1.
